@@ -134,6 +134,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+
 }
 
 #header.header-scrolled {
@@ -148,7 +149,7 @@ h6 {
 }
 
 #header #logo h1 {
-  font-size: 34px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -157,8 +158,27 @@ h6 {
   letter-spacing: 3px;
 }
 
+
+#header #logo h2 {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+
+
 #header #logo h1 a,
 #header #logo h1 a:hover {
+  color: #fff;
+  padding-left: 10px;
+}
+
+#header #logo h2 a,
+#header #logo h2 a:hover {
   color: #fff;
   padding-left: 10px;
 }
@@ -166,8 +186,8 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  width: 34px;
-  height: 34px;
+  width: 50px;
+  height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -755,6 +775,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #services h4 {
   color : white;
+  text-align: center;
 }
 #services .box:hover .title a {
   color: #000000;
@@ -773,13 +794,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #call-to-action {
   background: white; fixed center center;
   background-size: cover;
-  padding: 60px 0 100px 0;
+  padding: 400px 0 100px 0;
 }
 
 #call-to-action h2,h3,h4 {
   color: black;
   font-size: 28px;
   font-weight: 700;
+  text-align: left;
 }
 
 #call-to-action p {
@@ -851,7 +873,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top {
-  background: #111;
+  background: #000000;
   padding: 60px 0 30px 0;
 }
 
@@ -1005,8 +1027,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0;
   margin: 0;
   margin-top: 100px;
-  width: 500px;
-  height: auto;
+  width: 115px;
+  height: 33;
 }
 
 /*--------------------------------------------------------------
