@@ -41,10 +41,43 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 0 0;
   padding: 0;
 
 }
+
+hr {
+width: 100%;
+margin-right: auto;
+height: 5px;
+background-color:#18d26e;
+}
+
+h5{
+  font-weight: bolder;
+}
+
+.headline__stroke--xx-small {
+  width: 1.875rem;
+  height: 2.4px;
+}
+
+.headline__stroke{
+  width: 3.75rem;
+  height: 2.4px;
+  margin-bottom: .5rem;
+  background: #18d26e;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 22.5em){
+  .headline__stroke{
+    height: 3px;
+    margin-bottom: .5625rem;
+    width: 3.75rem;
+  }
+}
+
 
 /* Back to top button */
 
@@ -586,10 +619,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-weight: 700;
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
 }
 
-.section-header h3::before {
+/*.section-header h3::before {
   content: '';
   position: absolute;
   display: block;
@@ -609,7 +642,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #18d26e;
   bottom: 0;
   left: calc(50% - 20px);
-}
+}*/
 
 .section-header p {
   text-align: center;
@@ -743,7 +776,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 #services p {
-  color: white;
+  color: black;
 }
 #services .box {
   margin-bottom: 30px;
@@ -770,12 +803,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .title a {
   color: #111;
 }
+
+#services h5 {
+  color : black;
+  text-align: center;
+}
+
 #services h3 {
   color : white;
-}
-#services h4 {
-  color : white;
   text-align: center;
+}
+
+#services h4 {
+  color : black;
+  text-align: center;
+}
+
+#services h7{
+  color: #18d26e;
+  font-weight: bolder; 
 }
 #services .box:hover .title a {
   color: #000000;
